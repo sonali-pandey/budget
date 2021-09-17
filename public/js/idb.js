@@ -14,7 +14,7 @@ request.onsuccess = function(event) {
 
     //if app is online, run uploadTransaction()
     if(navigator.onLine) {
-        // uploadTransaction();
+        uploadTransaction();
     };
 };
 
